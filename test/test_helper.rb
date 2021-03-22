@@ -5,6 +5,8 @@ require "minitest/reporters"
 Minitest::Reporters.use!
 
 class ActiveSupport::TestCase
+  fixtures :all
+  include ApplicationHelper
   # 特定のワーカーではテストをパラレル実行する
   parallelize(workers: :number_of_processors)
 
