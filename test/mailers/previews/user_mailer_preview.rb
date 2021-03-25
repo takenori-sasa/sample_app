@@ -1,5 +1,5 @@
 
-# Preview all emails at http://localhost:3000/rails/mailers/user_mailer
+# Preview all emails at https://e92098141da14bca9b37e1663ba87d3f.vfs.cloud9.ap-northeast-1.amazonaws.com/rails/mailers/user_mailer
 class UserMailerPreview < ActionMailer::Preview
 
   # Preview this email at
