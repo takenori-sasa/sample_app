@@ -15,4 +15,7 @@ class MicropostTest < ActiveSupport::TestCase
     @micropost.user_id = nil
     assert_not @micropost.valid?
   end
+  test "order should be most recent first" do
+    assert_equal microposts(:most_recent), Micropost.first
+  end
 end
